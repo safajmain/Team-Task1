@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="https://unpkg.com/boxicons/css/boxicons.min.css">
+
+   <style>
+#header{width: 80%;
+       height: 20px;
+       background-color:white;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 10px 20px;
+       margin: 0 auto; 
+
+}
+#logophoto {   width: 10%;
+   height: 30px;
+    text-align: left;
+}
+
+p{  color:#333;
+text-indent: 40px 20px;
+font-size: 20px;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+#linkes {
+           display: flex;
+           justify-content: center;
+           flex-grow: 1;  
+       }
+
+
+
+      a {text-decoration: none;
+   color: #333 ;
+   font-size: 16px;
+  margin: 0 10px;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+ a:hover{ color: orange;}
+
+ #button {
+   background-color:#04ddb2;
+   padding: 5px 10px;
+   border-radius: 15px;
+   text-align: center;
+   width: 100px;
+   color: white;
+   transition: transform 0.2s ease; 
+   cursor: pointer;  
+   border: none;  
+   display: block;
+   margin: 0 auto;
+}
+
+#button:active {
+   transform: scale(1.1); 
+}
+
+.button{
+   background-color:#04ddb2;
+    padding: 10px 15px;
+  border-radius: 20px;
+  text-align: center;
+  width: 140px;
+   margin-left: 360px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: white;
+  transition: transform 0.2s ease;
+  border: none;
+ }
+ .button:active {
+   transform: scale(1.1); }
+
+.section1{  width: 80%;
+       height: 150px;
+       background-color: white;
+        text-align: center;
+       padding: 10px 20px;
+       margin: 0 auto; 
+       font-size: larger;
+font-style: normal; 
+
+}
+h1{ text-transform:   capitalize;
+   font-style:    normal;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bolder;
+   
+   
+}
+
+#videoo{ background-color: white;
+        width: 40%;
+      
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       padding: 10px 20px;
+       margin: 0 auto ; 
+       transition: transform 0.3s ease, box-shadow 0.3s ease;
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+ 
+}
+#videoo:hover {
+   transform: scale(1.2);
+   box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);}
+   
+#section2{  width: 80%;
+       height: 100px;
+       background-color: white;
+       display: flex;
+       justify-content: center;
+       padding: 50px 20px;
+       margin:  auto;   
+       margin-top: 55px;
+       display: flex;
+       flex-direction: column;
+       
+   }
+   h{ text-align: center;
+   font-weight: bold;
+   color: #333;
+   font-family: Arial, Helvetica, sans-serif;
+font-size: 40px;}
+
+
+ 
+     
+     hr{width: 80%;
+   color: rgb(163, 160, 160);}
+
+   #footer {
+   width: 80%;
+   background-color:white;
+   margin: auto;
+   display: flex;
+   justify-content: center;  
+   align-items: flex-start;  
+   padding: 20px;
+   color: rgb(20, 12, 12);
+   height: 220px; 
+   text-align: left;
+}
+
+h4{color: #333;
+font-size: larger;
+font-weight: bolder;}
+#footer div {
+   margin: 0 30px; 
+   width: auto;
+   max-width: 200px; 
+}
+
+   
+.icon-container {
+           display: flex;
+           gap: 10px;  
+           
+       }
+
+       .icon-container i {
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           background-color: #333;
+           border-radius: 50%;
+           width: 40px;  
+           height: 40px;  
+           font-size: 20px;  
+           
+           text-align: center;  
+           background-color:#04ddb2 ;
+           transition: transform 0.2s ease; 
+       }
+       .icon-container i:active {
+           transform: scale(1.2);  }
+
+           .part1{ color: #333;
+           font-family: Arial, Helvetica, sans-serif;}
+   </style>
+
+</head>
+  
+<body>
+   <div id="header"> 
+           <div id="logophoto">  <img src="image.png"> </div>
+
+<div id="linkes">  
+       <a href="#"  > Overview</a>
+       <a href="#"  > Examples</a>
+       <a href="#"  > Tour</a>
+       <a href="#"  > Blog</a>
+       <a href="#"  > Help</a>
+</div>
+ <button id="button"> Download</button>
+  
+     </div>
+    
+
+   <div class="section1">  <h1> <span style="color: #333;">lobe</span>
+       <span style="color: green;">tour</span></h1>
+   <p> Bulid your first machine learning model in ten<br>  minutes .No code or experience required.</p></div>
+
+   <div  id="videoo"> 
+       <iframe width="600" height="350" src="https://www.youtube.com/embed/dD2EISBDjWM" 
+       title="YouTube video player" frameborder="0" 
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+       allowfullscreen></iframe>
+    </div>
+
+   <div id="section2"> <h  > Train your app <br> with Lobe</h>  
+   <button  class="button"> Download</button>
+<br>
+<hr> </div>
+
+   <div  id="footer"> 
+      <div class="part1"> <img src="image.png" > <br> <br>  A product by Microsoft.<br><br> 
+        All rihts resrved <br> <br> &copy; Microsoft 2021 
+    </div>
+    <div  class="part2 "> 
+       <h4>About </h4>
+       <a href=""> download</a><br> <br>
+       <a href=""> overview</a><br><br>
+       <a href=""> examples </a><br> <br>
+       <a href=""> blog</a>
+
+    </div>
+    <div  class="part3 "> 
+       <h4>General  </h4>
+       <a href=""> notice</a><br> <br>
+       <a href=""> license</a><br><br>
+       <a href=""> press inguiry </a><br> <br>
+       <a href=""> press images </a>
+
+    </div>
+    <div  class="part4 "> 
+       <h4>Resources  </h4>
+       <a href=""> help</a><br> <br>
+       <a href=""> tour</a><br><br>
+       <a href=""> contant   </a><br> <br>
+       <a href=""> privacy </a>
+
+    </div>
+   
+<div class="icon-container"> <i class='bx bxl-youtube' style='color :#f5efef'  ></i>
+   <i class='bx bxl-twitter' style='color:#f5efef'  ></i>
+   <i class='bx bxs-message-rounded-dots' style='color:#edecec'  ></i></div>
+
+
+
+
+
+
+
+
+</div>
+
+</body>
+</html>
